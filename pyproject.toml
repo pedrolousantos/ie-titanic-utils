@@ -8,3 +8,5 @@ author = "Pedro Lourenço dos Santos"
 author-email = "pedrosantos@student.ie.edu"
 description-file = "README.md"
 
+[tool.flit.entrypoints."console_scripts"]
+ie_tokenize = "ie_utils.__main__:main"
