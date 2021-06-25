@@ -9,6 +9,7 @@ author-email = "pedrosantos@student.ie.edu"
 description-file = "README.md"
 requires = [
     "pandas"
+    "pytest"
     # "flask", # Instead, specified in requirements.txt
 ]
 
