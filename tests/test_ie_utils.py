@@ -1,5 +1,3 @@
-import pytest
-
 from ie_utils import tokenize
 
 @pytest.mark.parametrize("sentence, expected_tokens", [
