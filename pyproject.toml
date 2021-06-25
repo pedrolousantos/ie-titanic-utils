@@ -7,6 +7,10 @@ module = "ie_utils"
 author = "Pedro Lourenço dos Santos"
 author-email = "pedrosantos@student.ie.edu"
 description-file = "README.md"
+requires = [
+    "pandas"
+    # "flask", # Instead, specified in requirements.txt
+]
 
 [tool.flit.entrypoints."console_scripts"]
 ie_tokenize = "ie_utils.__main__:main"
