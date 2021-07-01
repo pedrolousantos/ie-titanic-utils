@@ -1,3 +1,5 @@
 . # install current directory
 
 flask
+voila
+ipywidgets
